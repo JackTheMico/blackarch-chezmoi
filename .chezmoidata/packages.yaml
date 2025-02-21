@@ -5,11 +5,15 @@ packages:
       - bat
       - git
       - blackman
-      - atuin
+      # - atuin
       - github-cli
+      - fd
       - fzf
       - fish
       - fisher
+      - fcitx5
+      - fcitx5-chinese-addons
+      - fcitx5-configtool
       - httpie
       - ghostty
       - kitty
@@ -20,16 +24,24 @@ packages:
       - nodejs
       - neovim
       - nushell
+      - nutstore
       - make
       - chaka
       - imagemagick
+      - obsidian
       - poppler
       - python-poetry
       - python-pipx
-      - uv
-      - fd
+      - pyenv
+      - qutebrowser
       - ripgrep
       - starship
+      - swww
+      - sddm
+      - uv
+      - unzip
+      - unrar
       - wget
       - wezterm
+      - yazi
       - zoxide
