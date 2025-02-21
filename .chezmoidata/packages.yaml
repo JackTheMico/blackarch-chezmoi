@@ -1,0 +1,30 @@
+packages:
+  blackarch:
+    yay:
+      - git
+      - bat
+      - blackman
+      - atuin
+      - github-cli
+      - fzf
+      - fish
+      - fisher
+      - httpie
+      - ghostty
+      - kitty
+      - lazygit
+      - lazyjj
+      - npm
+      - nodejs
+      - neovim
+      - nushell
+      - make
+      - chaka
+      - imagemagick
+      - poppler
+      - fd
+      - ripgrep
+      - starship
+      - wget
+      - wezterm
+      - zoxide
