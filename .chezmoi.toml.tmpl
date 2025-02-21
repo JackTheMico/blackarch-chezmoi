@@ -1,0 +1,33 @@
+encryption = "age"
+{{ $osid := .chezmoi.os }}
+{{ if hasKey .chezmoi.osRelease "id" }}
+{{   $osid = printf "%s-%s" .chezmoi.os .chezmoi.osRelease.id }}
+{{ else }}
+{{   $osid = "windows"}}
+{{ end }}
+[age]
+    identity = "/home/jackwenyoung/nutstorefiles/secrets/blackarch-chezmoi-age.txt"
+    recipient = "age10d7ya3xl3ml5aksq7pz3uumef0npngm2945h2garylqahd6fpvnql3flwn"
+[git]
+    autoCommit = true
+    autoPush = true
+[data]
+    osid = {{ $osid | quote }}
+# {{ if ne .chezmoi.os "windows" }}
+# [hooks.read-source-state.pre]
+#     command = ".local/share/chezmoi/.install-password-manager.sh"
+# {{ end }}
+
+# {{ if eq .chezmoi.os "linux" }}
+#   {{   if (.chezmoi.kernel.osrelease | lower | contains "microsoft") }}
+# [keepassxc]
+#     args = ["--key-file", "/home/jackwenyoung/.ssh/id_jack_windows"]
+#     database = "/mnt/f/keepass/Jack.kdbx"
+#     mode = "open"
+#   {{   else }}
+# [keepassxc]
+#     args = ["--key-file", "/home/jackwenyoung/.ssh/id_jack_windows"]
+#     database = "~/Nutstore Files/keepass/Jack.kdbx"
+#     mode = "open"
+#   {{   end }}
+# {{ end }}
