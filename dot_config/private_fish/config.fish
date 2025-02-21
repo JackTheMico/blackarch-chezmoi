@@ -12,8 +12,9 @@ abbr la 'eza -a'
 abbr lt 'eza -T'
 abbr jjbm 'jj bookmark s -r @- main'
 abbr gpom 'git push -u origin main'
-abbr efish 'nvim ~/.config/fish/config.fish'
-abbr refish 'source ~/.config/fish/config.fish'
+abbr efish 'chezmoi edit ~/.config/fish/config.fish'
+abbr refish 'chezmoi apply ~/.config/fish/config.fish && source ~/.config/fish/config.fish'
+abbr wgete 'wget -e "https_proxy=http://localhost:7897"'
 
 function enproxy
     set -xg ALL_PROXY http://localhost:7897

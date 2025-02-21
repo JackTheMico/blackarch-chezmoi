@@ -5,12 +5,14 @@ encryption = "age"
 {{ else }}
 {{   $osid = "windows"}}
 {{ end }}
+[edit]
+    command = "nvim"
 [age]
     identity = "/home/jackwenyoung/nutstorefiles/secrets/blackarch-chezmoi-age.txt"
     recipient = "age10d7ya3xl3ml5aksq7pz3uumef0npngm2945h2garylqahd6fpvnql3flwn"
 [git]
-    autoCommit = true
-    autoPush = true
+    autoCommit = false
+    autoPush = false
 [data]
     osid = {{ $osid | quote }}
 # {{ if ne .chezmoi.os "windows" }}

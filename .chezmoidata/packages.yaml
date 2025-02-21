@@ -2,10 +2,11 @@ packages:
   blackarch:
     yay:
       - age
+      # - atuin
       - bat
       - git
       - blackman
-      # - atuin
+      - discord
       - github-cli
       - fd
       - fzf
@@ -17,6 +18,7 @@ packages:
       - httpie
       - ghostty
       - kitty
+      - keepassxc
       - lazygit
       - lazyjj
       - just
@@ -38,6 +40,7 @@ packages:
       - starship
       - swww
       - sddm
+      - thunderbird
       - uv
       - unzip
       - unrar
