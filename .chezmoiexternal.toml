@@ -1,0 +1,6 @@
+[".local/share/fcitx5"]
+type = "archive"
+url = "http://ys-g.ysepan.com/wap/huma/NkhAd4UE2TcP5fD4EC/9c4gC9iq3gEhFSabds2IDEb6iA1iE3/fcitx5.zip"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h"

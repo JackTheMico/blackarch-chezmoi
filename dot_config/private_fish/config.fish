@@ -10,6 +10,7 @@ abbr ls 'eza'
 abbr ll 'eza -l'
 abbr la 'eza -a'
 abbr lt 'eza -T'
+abbr jjbm 'jj bookmark s -r @- main'
 abbr efish 'nvim ~/.config/fish/config.fish'
 abbr refish 'source ~/.config/fish/config.fish'
 
