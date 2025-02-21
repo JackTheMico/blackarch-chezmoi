@@ -5,6 +5,7 @@ packages:
       - bat
       - git
       - blackman
+      - discord
       # - atuin
       - github-cli
       - fd
@@ -17,6 +18,7 @@ packages:
       - httpie
       - ghostty
       - kitty
+      - keepassxc
       - lazygit
       - lazyjj
       - just
@@ -38,6 +40,7 @@ packages:
       - starship
       - swww
       - sddm
+      - thunderbird
       - uv
       - unzip
       - unrar
