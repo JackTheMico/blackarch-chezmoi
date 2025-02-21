@@ -2,11 +2,11 @@ packages:
   blackarch:
     yay:
       - age
+      # - atuin
       - bat
       - git
       - blackman
       - discord
-      # - atuin
       - github-cli
       - fd
       - fzf
