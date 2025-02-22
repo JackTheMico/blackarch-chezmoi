@@ -1,50 +1,67 @@
 packages:
   blackarch:
     yay:
+      # NOTE: Encryption and secrets
       - age
-      # - atuin
+      - sops
+      - nutstore
+      - keepassxc
+      # NOTE: Commandline Tools
       - bat
-      - git
-      - blackman
-      - discord
+      - make
+      # - atuin
+      - chezmoi
       - github-cli
       - fd
       - fzf
-      - fish
-      - fisher
-      - fcitx5
-      - fcitx5-chinese-addons
-      - fcitx5-configtool
-      - httpie
-      - ghostty
-      - kitty
-      - keepassxc
-      - lazygit
-      - lazyjj
       - just
-      - npm
-      - nodejs
-      - neovim
-      - nushell
-      - nutstore
-      - make
+      - httpie
       - chaka
-      - imagemagick
-      - obsidian
       - poppler
-      - python-poetry
-      - python-pipx
-      - pyenv
-      - qutebrowser
-      - ripgrep
-      - starship
-      - swww
-      - sddm
-      - thunderbird
-      - uv
+      - imagemagick
       - unzip
       - unrar
       - wget
-      - wezterm
       - yazi
+      - ripgrep
       - zoxide
+      # NOTE: VCS
+      - git
+      - lazygit
+      - lazyjj
+      - blackman
+      # NOTE: Shell
+      - starship
+      - fish
+      - fisher
+      - nushell
+      - fcitx5
+      - fcitx5-chinese-addons
+      - fcitx5-configtool
+      # NOTE: Terminal
+      - ghostty
+      - kitty
+      - wezterm
+      - npm
+      - nodejs
+      # NOTE: Editor
+      - neovim
+      - vscodium-bin
+      # NOTE: GUI
+      - discord
+      - obsidian
+      - qutebrowser
+      - thunderbird
+      # NOTE: Python
+      - python-poetry
+      - python-pipx
+      - pyenv
+      - uv
+      # NOTE: Hyprland
+      - swww
+      - sddm
+      - hyprland
+      - hypridle
+      - hyprlock
+      - hyprpicker
+      - hyprsunset
