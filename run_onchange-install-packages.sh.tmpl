@@ -1,10 +1,11 @@
 #!/bin/bash
 
-{{ $sudo := "sudo " -}}
-{{ if eq .chezmoi.username "root" -}}
-{{ $sudo = "" -}}
-{{ end -}}
+# {{ $sudo := "sudo " -}}
+# {{ if eq .chezmoi.username "root" -}}
+# {{ $sudo = "" -}}
+# {{ end -}}
 
 {{ if eq .osid "linux-blackarch" }}
-{{ $sudo }}yay -S --noconfirm --needed {{ .packages.blackarch.yay | join " " }}
+# {{ $sudo }}yay -S --noconfirm --needed {{ .packages.blackarch.yay | join " " }}
+yay -S --noconfirm --needed {{ .packages.blackarch.yay | join " " }}
 {{ end -}}
