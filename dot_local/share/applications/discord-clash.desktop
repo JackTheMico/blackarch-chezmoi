@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Discord Clash
+StartupWMClass=discord
+Comment=All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.
+GenericName=Internet Messenger
+Exec=env http_proxy=http://localhost:7897 https_proxy=http://localhost:7897 /usr/bin/discord --proxy-server="http://localhost:7897"
+Icon=discord
+Type=Application
+Categories=Network;InstantMessaging;
+Path=/usr/bin

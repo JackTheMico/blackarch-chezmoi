@@ -52,6 +52,8 @@ packages:
       - obsidian
       - qutebrowser
       - thunderbird
+      - steam
+      - watt-toolkit-bin
       # NOTE: Python
       - python-poetry
       - python-pipx
