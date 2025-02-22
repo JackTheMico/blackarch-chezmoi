@@ -1,5 +1,6 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
+    fzf_configure_bindings --processes=\cp
 end
 
 abbr lg lazygit
@@ -15,6 +16,7 @@ abbr gpom 'git push -u origin main'
 abbr efish 'chezmoi edit ~/.config/fish/config.fish'
 abbr refish 'chezmoi apply ~/.config/fish/config.fish && source ~/.config/fish/config.fish'
 abbr wgete 'wget -e "https_proxy=http://localhost:7897"'
+abbr ff fastfetch
 
 function enproxy
     set -xg ALL_PROXY http://localhost:7897
