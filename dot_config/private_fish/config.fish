@@ -30,5 +30,11 @@ function deproxy
     set -e HTTPS_PROXY
     echo "Disable proxies"
 end
+function gitjackinit
+    git config user.name "Jack Wenyoung"
+    git config user.email "dlwxxxdlw@gmail.com"
+    git config user.signingKey A30DF874D95E6029
+    git config commit.gpgSign true
+end
 starship init fish | source
 zoxide init fish | source
