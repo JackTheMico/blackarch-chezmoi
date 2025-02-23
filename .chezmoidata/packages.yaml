@@ -67,3 +67,7 @@ packages:
       - hyprlock
       - hyprpicker
       - hyprsunset
+      # NOTE: Hyprland-virtual-desktop
+      - cpio
+      - cmake
+      - meson
