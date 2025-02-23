@@ -16,9 +16,10 @@ packages:
       - fzf
       - just
       - httpie
+      - imagemagick
+      - lnav
       - chaka
       - poppler
-      - imagemagick
       - unzip
       - unrar
       - wget
@@ -67,7 +68,7 @@ packages:
       - hyprlock
       - hyprpicker
       - hyprsunset
-      # NOTE: Hyprland-virtual-desktop
+      # NOTE: Hyprpm requires
       - cpio
       - cmake
       - meson
