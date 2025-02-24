@@ -24,6 +24,7 @@ packages:
       - unrar
       - wget
       - yazi
+      - yayfzf
       - ripgrep
       - zoxide
       # NOTE: VCS
