@@ -44,8 +44,10 @@ packages:
       - ghostty
       - kitty
       - wezterm
+      # NOTE: Web
       - npm
       - nodejs
+      - pnpm
       # NOTE: Editor
       - neovim
       - vscodium-bin

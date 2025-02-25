@@ -17,6 +17,7 @@ abbr efish 'chezmoi edit ~/.config/fish/config.fish'
 abbr refish 'chezmoi apply ~/.config/fish/config.fish && source ~/.config/fish/config.fish'
 abbr wgete 'wget -e "https_proxy=http://localhost:7897"'
 abbr ff fastfetch
+abbr j just
 
 function enproxy
     set -xg ALL_PROXY http://localhost:7897
