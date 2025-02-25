@@ -8,6 +8,7 @@ packages:
       - keepassxc
       # NOTE: Commandline Tools
       - bat
+      - btop
       - make
       # - atuin
       - chezmoi
@@ -58,6 +59,7 @@ packages:
       - thunderbird
       - steam
       - watt-toolkit-bin
+      - vial-appimage
       # NOTE: Python
       - python-poetry
       - python-pipx
