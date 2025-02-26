@@ -18,6 +18,7 @@ abbr refish 'chezmoi apply ~/.config/fish/config.fish && source ~/.config/fish/c
 abbr wgete 'wget -e "https_proxy=http://localhost:7897"'
 abbr ff fastfetch
 abbr j just
+set -xg EDITOR nvim
 
 function enproxy
     set -xg ALL_PROXY http://localhost:7897
