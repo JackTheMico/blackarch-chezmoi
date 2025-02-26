@@ -73,6 +73,7 @@ packages:
       - hyprlock
       - hyprpicker
       - hyprsunset
+      - rofi-playerctl-git
       # NOTE: Hyprpm requires
       - cpio
       - cmake
