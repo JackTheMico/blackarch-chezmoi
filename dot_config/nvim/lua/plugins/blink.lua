@@ -2,9 +2,10 @@
 return {
   "saghen/blink.cmp",
   optional = true,
-  dependencies = { "allaman/emoji.nvim", "saghen/blink.compat" },
+  dependencies = { "allaman/emoji.nvim", { "saghen/blink.compat", lazy = true, version = false } },
   opts = {
     sources = {
+      compat = { "obsidian", "obsidian_new", "obsidian_tags" },
       default = { "emoji" },
       providers = {
         emoji = {

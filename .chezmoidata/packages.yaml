@@ -29,6 +29,15 @@ packages:
       - yayfzf
       - ripgrep
       - zoxide
+      # NOTE: Hacking
+      - cvemap
+      - katana-pd
+      - naabu
+      - subfinder
+      - httpx
+      - zaproxy-bin
+      - caido-desktop
+      - libreoffice-fresh-zh-cn
       # NOTE: VCS
       - git
       - lazygit
@@ -61,6 +70,7 @@ packages:
       - steam
       - watt-toolkit-bin
       - vial-appimage
+      - purewriter-desktop-bin
       # NOTE: Python
       - python-poetry
       - python-pipx
