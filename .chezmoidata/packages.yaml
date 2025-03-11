@@ -22,9 +22,13 @@ packages:
       - chaka
       - navi
       - poppler
+      - thefuck
+      - scrcpy # Android screen copy
+      - android-tools # for adb cmd
       - unzip
       - unrar
       - wget
+      - watchexec
       - yazi
       - yayfzf
       - ripgrep
@@ -63,6 +67,7 @@ packages:
       - neovim
       - vscodium-bin
       # NOTE: GUI
+      - crossover
       - discord
       - obsidian
       - qutebrowser
@@ -71,6 +76,7 @@ packages:
       - watt-toolkit-bin
       - vial-appimage
       - purewriter-desktop-bin
+      # - zoom # NOTE: Need alter before install, so I installed it manually
       # NOTE: Python
       - python-poetry
       - python-pipx
